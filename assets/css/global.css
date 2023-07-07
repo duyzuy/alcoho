@@ -672,12 +672,15 @@
 /*--------post detail-----*/
 .post-detail {
 }
+.post-detail-contents .container {
+  max-width: 960px;
+}
 .post-detail .col-image {
   flex: 1;
-  padding-right: 60px;
+  padding-right: 30px;
 }
 .post-detail .col-title {
-  width: 240px;
+  width: 180px;
 }
 .post-detail .col-title .inner {
   height: 100%;
@@ -687,8 +690,8 @@
   align-items: center;
 }
 .post-detail .col-title h1 {
-  font-size: 3rem;
-  line-height: 4.5rem;
+  font-size: 2.5rem;
+  line-height: 3.5rem;
   text-align: center;
   margin-bottom: 0;
 }
